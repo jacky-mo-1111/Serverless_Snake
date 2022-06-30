@@ -1,6 +1,7 @@
 # [Replace this with your project title]
 
 ## About Me
+Hi, I am Jacky, I started really late, please forgive me
 
 ## The Premise
 
