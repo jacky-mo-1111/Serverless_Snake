@@ -6,7 +6,7 @@ module.exports = async function (context, req) {
 
 
     let result =""; 
-    //param name is password why
+    //param name is password why 
     var password = req.query.password; 
     context.log(password)
 
