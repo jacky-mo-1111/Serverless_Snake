@@ -1,11 +1,12 @@
-const { result } = require("cypress/types/lodash");
+
+//const { result } = require("cypress/types/lodash");
 
 module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 
 
     let result =""; 
-    //param name is password
+    //param name is password why
     var password = req.query.password; 
     context.log(password)
 
