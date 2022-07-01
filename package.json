@@ -7,7 +7,12 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
+    "@types/lodash": "^4.14.182",
     "cypress": "^8.2.0",
+<<<<<<< HEAD
+=======
+    "lodash": "^4.17.21",
+>>>>>>> main
     "node-fetch": "^2.6.7"
   },
   "devDependencies": {},
