@@ -4,7 +4,7 @@ module.exports = async function (context, req) {
     //param name is password
     var password = req.query.password; 
     context.log(password)
-    //
+    //xiaoxie
 
 
     context.res = {
