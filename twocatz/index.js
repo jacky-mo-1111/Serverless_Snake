@@ -7,7 +7,7 @@ module.exports = async function (context, req) {
         method: 'GET'
     });
     
-    const data = await resp.arrayBuffer()
+    let data = await resp.arrayBuffer()
     // we need to receive it as a buffer since this is an image we are receiving from the API
     // Buffer?? https://developer.mozilla.org/en-US/docs/Web/API/Blob
 
