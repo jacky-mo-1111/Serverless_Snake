@@ -1,22 +1,16 @@
 {
-  "name": "intro-to-serverless",
+  "name": "Serverless_Snake",
   "version": "1.0.0",
   "description": "![Newsletter](https://user-images.githubusercontent.com/69332964/114803220-14269100-9d6d-11eb-9a3a-e92a637e5d79.png)",
-  "scripts": {
-    "start": "func start",
-    "test": "echo \"No tests yet...\""
-  },
+  "main": "index.js",
   "dependencies": {
-    "@types/lodash": "^4.14.182",
-    "cypress": "^8.2.0",
-<<<<<<< HEAD
-=======
     "lodash": "^4.17.21",
->>>>>>> main
     "node-fetch": "^2.6.7"
   },
   "devDependencies": {},
-  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacky-mo-1111/Serverless_Snake.git"
